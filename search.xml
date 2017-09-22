@@ -4,18 +4,25 @@
     
     <entry>
       <title><![CDATA[Neden Hexo?]]></title>
-      <url>/2017/09/16/neden-hexo/</url>
-      <content type="html"><![CDATA[<p><a href="https://hexo.io/" target="_blank" rel="external">Hexo</a> sitesindeki tanımı ile hızlı ve güçlü bir blog freamwork olarak geçiyor. Genel olarak markdown olsada başka dillerde de oluşturduğunuz sayfayı ekleyip statik dosyalar üretilebilir.</p>
-<h3 id="Neden-Hexo"><a href="#Neden-Hexo" class="headerlink" title="Neden Hexo?"></a>Neden Hexo?</h3><p>Hexo kullanmak için en geçerli sebeb nodejs tabanını kullanmasıdır. Nodejs ile diğer sunucuların oluşturduğu karmaşık yapılardan, zaman ve kaynak maliyetinden kurtulabilrsiniz. Hexo bu yapı üzerine kurulan bir freamworktür.</p>
+      <url>/2017/09/22/neden-hexo/</url>
+      <content type="html"><![CDATA[<p><a href="https://hexo.io/" target="_blank" rel="external">Hexo</a> sitesindeki tanımı ile hızlı ve güçlü bir blog freamwork olarak geçiyor. Genel olarak markdown olsada başka dillerde de oluşturduğunuz sayfayı ekleyip statik dosyalar üretilebilir ve bunları sitenizde yayınlabilirsiniz.</p>
+<h3 id="Neden-Hexo"><a href="#Neden-Hexo" class="headerlink" title="Neden Hexo?"></a>Neden Hexo?</h3><p>Hexo kullanmak için en geçerli sebeb nodejs tabanını kullanmasıdır. Nodejs ile diğer sunucuların oluşturduğu karmaşık yapılardan, zaman ve kaynak maliyetinden kurtulabilrsiniz. Hexo da bu yapı üzerine kurulu bir freamworktür.</p>
 <h3 id="Hexo-Kurulum"><a href="#Hexo-Kurulum" class="headerlink" title="Hexo Kurulum"></a>Hexo Kurulum</h3><p>Bilgisayarınıza Nodejs ve Git kurduktan sonra terminal ekranınıza:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-cli -g</div></pre></td></tr></table></figure></p>
 <p>yazarak hexo kurulumu yapabilirsiniz.</p>
-<h3 id="Hexo-Kullanim"><a href="#Hexo-Kullanim" class="headerlink" title="Hexo Kullanım!"></a>Hexo Kullanım!</h3><h4 id="Config-Dosyasi"><a href="#Config-Dosyasi" class="headerlink" title="Config Dosyası"></a>Config Dosyası</h4><p>Bu dosya içerisinde kişisel bilgilerinizi ve siteniz hakkında ayarlar yapmanızı sağlayan bir dosyadır. İster üzerindeki hazır ayarları isterseniz de yeni ayarlar ekleyebilirsiniz.</p>
-<h4 id="Hexo-init"><a href="#Hexo-init" class="headerlink" title="Hexo init"></a>Hexo init</h4><p>Kurulumu yaptıktan sonra aşağıdaki komutu çalıştırarak blog dosyanızın kurulumunu yapabilirsiniz.</p>
+<h3 id="Hizlica-Hexo"><a href="#Hizlica-Hexo" class="headerlink" title="Hızlıca Hexo!"></a>Hızlıca Hexo!</h3><h4 id="Hexo-init"><a href="#Hexo-init" class="headerlink" title="Hexo init"></a>Hexo init</h4><p>Kurulumu yaptıktan sonra aşağıdaki komutu çalıştırarak blog dosyanızın kurulumunu yapabilirsiniz.</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo init &lt;folder&gt;</div></pre></td></tr></table></figure>
-<h4 id="Hexo-server"><a href="#Hexo-server" class="headerlink" title="Hexo server"></a>Hexo server</h4><p>Bu komut ile programınızı localde çalıştırarak önizleme yapabilirsiniz.</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<h4 id="Hexo-new"><a href="#Hexo-new" class="headerlink" title="Hexo new"></a>Hexo new</h4><p>Siteniz için yeni bir post, sayfa oluşturmak isterseniz aşağıdaki komutu kullanın:</p>
+<p>Dosya oluşturulduktan sonra aşağıdaki dosyalar yer alr;</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">.</div><div class="line">├── _config.yml</div><div class="line">├── package.json</div><div class="line">├── scaffolds</div><div class="line">├── <span class="built_in">source</span></div><div class="line">|   ├── _drafts</div><div class="line">|   └── _posts</div><div class="line">└── themes</div></pre></td></tr></table></figure>
+<h4 id="Config-Dosyasi"><a href="#Config-Dosyasi" class="headerlink" title="Config Dosyası"></a>Config Dosyası</h4><p>Bu dosya içerisinde kişisel bilgilerinizi ve siteniz hakkında ayarlar yapmanızı sağlayan bir dosyadır. İster üzerindeki hazır ayarları isterseniz de yeni ayarlar ekleyebilirsiniz.</p>
+<h4 id="Hexo-new"><a href="#Hexo-new" class="headerlink" title="Hexo new"></a>Hexo new</h4><p>Siteniz için yeni bir post veya sayfa oluşturmak isterseniz aşağıdaki komutu kullanın:</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<h4 id="Hexo-server"><a href="#Hexo-server" class="headerlink" title="Hexo server"></a>Hexo server</h4><p>Local servisi başlatır. Öntanımlı olarak: <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">``` bash</div><div class="line">$ hexo server</div></pre></td></tr></table></figure></p>
+<h4 id="Hexo-clean"><a href="#Hexo-clean" class="headerlink" title="Hexo clean"></a>Hexo clean</h4><p>Önbellek dosyaları (db.json) ve diğer oluşturulan dosyaları temizler.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<h4 id="Hexo-list"><a href="#Hexo-list" class="headerlink" title="Hexo list"></a>Hexo list</h4><p>Tüm yolları listeler.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<h4 id="Hexo-deploy"><a href="#Hexo-deploy" class="headerlink" title="Hexo deploy"></a>Hexo deploy</h4><p>Sitenizi yükler.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
 ]]></content>
       
         <categories>
