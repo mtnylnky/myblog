@@ -4,7 +4,7 @@
     
     <entry>
       <title><![CDATA[Neden Hexo?]]></title>
-      <url>/2017/09/22/neden-hexo/</url>
+      <url>/myblog/2017/09/22/neden-hexo/</url>
       <content type="html"><![CDATA[<p><a href="https://hexo.io/" target="_blank" rel="external">Hexo</a> sitesindeki tanımı ile hızlı ve güçlü bir blog freamwork olarak geçiyor. Genel olarak markdown olsada başka dillerde de oluşturduğunuz sayfayı ekleyip statik dosyalar üretilebilir ve bunları sitenizde yayınlabilirsiniz.</p>
 <h3 id="Neden-Hexo"><a href="#Neden-Hexo" class="headerlink" title="Neden Hexo?"></a>Neden Hexo?</h3><p>Hexo kullanmak için en geçerli sebeb nodejs tabanını kullanmasıdır. Nodejs ile diğer sunucuların oluşturduğu karmaşık yapılardan, zaman ve kaynak maliyetinden kurtulabilrsiniz. Hexo da bu yapı üzerine kurulu bir freamworktür.</p>
 <h3 id="Hexo-Kurulum"><a href="#Hexo-Kurulum" class="headerlink" title="Hexo Kurulum"></a>Hexo Kurulum</h3><p>Bilgisayarınıza Nodejs ve Git kurduktan sonra terminal ekranınıza:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-cli -g</div></pre></td></tr></table></figure></p>
